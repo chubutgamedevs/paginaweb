@@ -317,25 +317,25 @@ h6 {
 }
 
 .project1 {
-    background: url(../img/pypong.png) no-repeat 50% 50%;
+    background: url(../img/generador.jpeg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project1::after {
-    content: "alquimia silabas.";
+    content: "generador-npc.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
     display: block;
-    top: 8%;
-    left: -60%;
+    top: 80%;
+    left: -40%;
     right: 0;
     bottom: 0;
 }
 
 .project2 {
-    background: url(../img/pic2.avif) no-repeat 50% 50%;
+    background: url(../img/kiosko.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
