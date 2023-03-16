@@ -34,8 +34,8 @@ body {
 }
 
 .anim-typewriter {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
-        blinkTextCussor 500ms steps(40) infinite normal;
+    animation: typewriter 2s steps(18) 1s 1 normal both,
+        blinkTextCussor 500ms steps(18) infinite normal;
 }
 
 @keyframes typewriter {
@@ -43,7 +43,7 @@ body {
         width: 0;
     }
     to {
-        width: 18em;
+        width: 9em;
     }
 }
 
@@ -53,7 +53,7 @@ body {
             width: 0;
         }
         to {
-            width: 17em;
+            width: 8em;
         }
     }
 }
@@ -234,6 +234,10 @@ nav #menu li a:hover {
 /* hero section */
 
 .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/_DSC8142-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -313,12 +317,12 @@ h6 {
 }
 
 .project1 {
-    background: url(../img/pic1.avif) no-repeat 50% 50%;
+    background: url(../img/pypong.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project1::after {
-    content: "timeless flow.";
+    content: "alquimia silabas.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -336,7 +340,7 @@ h6 {
 }
 
 .project2::after {
-    content: "foretime.";
+    content: "kiosko.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -349,30 +353,30 @@ h6 {
 }
 
 .project3 {
-    background: url(../img/pic3.avif) no-repeat 50% 50%;
+    background: url(../img/sokoban.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project3::after {
-    content: "never again.";
+    content: "sokoban.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
     display: block;
     top: 80%;
-    left: -50%;
+    left: -30%;
     right: 0;
     bottom: 0;
 }
 
 .project4 {
-    background: url(../img/pic4.avif) no-repeat 50% 50%;
+    background: url(../img/pypong.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project4::after {
-    content: "departure.";
+    content: "pypong.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -488,6 +492,28 @@ h6 {
     display: inline-block;
 }
 
+#media ul li a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+#media ul li a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.2s;
+}
+
+#address a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+#address a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.2s;
+}
+
 @media (max-width: 768px) {
     .collab,
     #personal,
@@ -534,7 +560,8 @@ h6 {
 }
 
 .image {
-    background: url(../img/pic5.avif) no-repeat 50% 70%;
+    background: url(../img/_DSC8163-1.jpg) no-repeat 50% 70%;
+    background-size: cover;
 }
 
 /* contact page */
